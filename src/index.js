@@ -4,7 +4,7 @@ import {View, Text} from 'react-native'
 const Swipable = () => {
   return (
     <View>
-      <Text>This is text. Hello world.</Text>
+      <Text>This is text. Hello worlds.</Text>
     </View>
   )
 }
