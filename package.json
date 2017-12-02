@@ -4,9 +4,8 @@
   "description": "Tinycards inspired swipable card component",
   "main": "src/index.js",
   "scripts": {
-    "start": "npm run run-example-ios",
-    "run-example-ios": "cd example && npm run ios",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run run-example",
+    "run-example": "cd example && concurrently -r 'npm run haul start -- --platform ios' 'react-native run-ios'"
   },
   "repository": {
     "type": "git",
@@ -26,6 +25,7 @@
   },
   "homepage": "https://github.com/pavloko/react-native-tinycard#readme",
   "devDependencies": {
+    "concurrently": "3.5.1",
     "react": "16.0.0",
     "react-native": "0.50"
   },
@@ -33,5 +33,7 @@
     "react": "*",
     "react-native": "*"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react-native-flip-card": "3.5.0"
+  }
 }
