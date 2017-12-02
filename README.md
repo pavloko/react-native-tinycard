@@ -1,3 +1,6 @@
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+[![npm version](https://badge.fury.io/js/react-native-tinycard.svg)](https://badge.fury.io/js/react-native-deck-swiper)
+
 ### Card component inspired by [Tinycards](https://tinycards.duolingo.com/)
 
 ### Dependencies
@@ -24,5 +27,3 @@ class App extends Component {
     }
 }
 ```
-
-### License
