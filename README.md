@@ -1,8 +1,8 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
-[![npm version](https://badge.fury.io/js/react-native-tinycard.svg)](https://badge.fury.io/js/react-native-deck-swiper)
+[![npm version](https://badge.fury.io/js/react-native-tinycard.svg)](https://badge.fury.io/js/react-native-tinycard)
 
 ### Card component inspired by [Tinycards](https://tinycards.duolingo.com/)
-![](https://github.com/pavloko/react-native-tinycard/blob/master/screenshots/react-native-tinycard.gif)
+![](https://github.com/pavloko/react-native-tinycard/blob/master/screenshots/react-native-tinycard.gif "react-native-tinycard-screenshoty")
 
 ### Dependencies
 1. [react-native-flip-card](https://github.com/moschan/react-native-flip-card)
@@ -22,7 +22,7 @@ class App extends Component {
             <Tinycard
                 word={'book'}
                 translation={'libra'}
-                onContinue={() => console.log('Card is flipped!')}
+                onContinue={() => console.log('Swipped the card. Showing next!')}
             />
         </View>
     }
