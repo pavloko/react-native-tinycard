@@ -28,3 +28,10 @@ class App extends Component {
     }
 }
 ```
+
+### Running the example project
+1. Fork and clone the rope
+2. `cd react-native-tinycard`
+3. Install dependencies: `cd example && yarn`
+4. Symlink the source code to get livesync: `npm link ../`
+5. Run the project from main dir: `cd .. && yarn start`
